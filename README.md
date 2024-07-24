@@ -1,5 +1,9 @@
-# Project Name
-> Outline a brief description of your project.
+# Lending club case study
+> A finance company specializing in providing various types of loans to urban customers wants develop a model to approve the loan based on the applicant’s profile. There are two types of risks are associated with the company's decision:
+ - If the applicant is likely to repay the loan, not approving the loan results is a loss of business for the company.
+ - If the applicant is likely to default on the loan, approving the loan may lead to a financial loss for the company.
+
+
 
 
 ## Table of Contents
