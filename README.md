@@ -15,38 +15,53 @@
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+- The primary objective is to analyze past loan applicant data to identify patterns that predict the likelihood of default. By understanding these patterns through Exploratory Data Analysis (EDA), the company aims to make informed decisions such as denying loans, reducing loan amounts, or lending to risky applicants at higher interest rates. This analysis will help Lending Club minimize financial losses and optimize their loan approval process.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+### Minor Impact
+ - Higher loan amount (above 16K)
+ - Higher installment amount (above 327)
+ - Lower annual income (below 37K)
+ - Higher debt to income ratio (above 15%)
+ - Applicant’s address state (NV, SD, AK, FL, etc.)
+ - Loan issue month (Dec, May, Sep)
 
+### Heavy impact
+ - Higher revolving line utilization rate (above 58%)
+ - Repayment term (5 years)
+ - Loan grade & sub-gr
+ - Missing employment record
+ - Loan purpose (small business, renewable energy, educational)
+ - Derogatory public records (1 or 2)
+ - Public bankruptcy records (1 or 2)
+
+### Combined impact
+ - High loan amount & interest rate for lower income group
+ - High installment and longer repayment term
+ - Home ownership (other) and loan purpose (car, moving or small business)
+ - Residential state and loan purpose
+ - Income group and loan purpose
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- Python - version 3.7.6
+- NumPy - version 1.18.1
+- Pandas - version 1.2.3
+- Matplotlib - version 3.1.3
+- Seaborn - version 0.10.0
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
 ## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+- This project was created as a case study required for Executive PG Programme in Machine Learning & AI - IIIT, Bangalore
+- This project was based on [this tutorial]([https://www.example.com](https://jovian.com/vijay-grg/l)).
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by [@sreenivasam] - feel free to contact me!
 
 
 <!-- Optional -->
